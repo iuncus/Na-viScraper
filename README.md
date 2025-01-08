@@ -1,1 +1,1 @@
-Scraper scrapes the forum, Cleaner tries to clean it with some very rudimentary techniques. Yeah that's kind of it
+Scraping the Learn Na'vi forum and some cleaning to create a dataset of exclusively Na'vi texts.
