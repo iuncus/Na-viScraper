@@ -12,16 +12,12 @@ python Na'viScraper.py
 ```
 
 ### Data Cleaning
-Run the Jupyter Notebook to clean the scraped data:
-```bash
-jupyter notebook "Na'viCleaner.ipynb"
-```
+Run the `Na'viCleaner.ipynb` Notebook to clean the scraped data:
+
 
 ### Model Training
-To train the RNN model using the cleaned data:
-```bash
-jupyter notebook "Na'viRNN_main.ipynb"
-```
+Run `Na'viRNN_main.ipynb` to train the RNN model using the cleaned data:
+
 
 ## File Descriptions
 
