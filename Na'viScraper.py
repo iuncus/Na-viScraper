@@ -123,21 +123,8 @@ for link in links:
 
 
 # with open("data/Na'viScraper/navi_post.txt", "w", encoding="utf-8") as myfile:
-with open("data/navi_post.csv", "w", encoding="utf-8") as myfile:
+with open("data/navi_post.tsv", "w", encoding="utf-8") as myfile:
     for i in scraped_text:
         myfile.write(i)
         myfile.flush()
 
-# -----------------------------------------
-
-
-
-# references
-
-# figure out self & implicit passing of arguments; "syntactic sugar" lol
-# https://stackoverflow.com/questions/23944657/typeerror-method-takes-1-positional-argument-but-2-were-given-but-i-only-pa
-# https://stackoverflow.com/questions/17534345/why-do-i-get-typeerror-missing-1-required-positional-argument-self
-# write() doesn't seem to work without flush/close()?
-# https://stackoverflow.com/questions/5972277/write-not-working-in-python
-# exclude certain child objects by extracting them
-# https://stackoverflow.com/questions/74620106/how-to-use-beautiful-soup-to-get-all-text-except-a-specific-class
