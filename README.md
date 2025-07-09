@@ -1,6 +1,6 @@
 # Na'viyä sästarsìm - RNN based Na'vi Text generator
 
-This project scrapes the nìNa'vi nì'aw forum on [Learn Na'vi](learnnavi.org), cleans the data, and trains a Recurrent Neural Network (RNN) to generate text in the Na'vi language.
+This project scrapes the nìNa'vi nì'aw forum on [Learn Na'vi](https://learnnavi.org), cleans the data, and trains a Recurrent Neural Network (RNN) to generate text in the Na'vi language.
 
 
 ## Usage
